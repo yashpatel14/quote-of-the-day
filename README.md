@@ -19,7 +19,8 @@ A simple web app that fetches and displays a random quote from an API, with opti
 ## 🖼 Screenshots
 
 ### 🎨 Main Interface  
-![Quote of the Day Screenshot](https://prnt.sc/FCOlABRfZDzF)    
+
+🔗 **[Quote of the Day Screenshot](https://prnt.sc/FCOlABRfZDzF)** 
 
 ---
 
