@@ -19,16 +19,13 @@ A simple web app that fetches and displays a random quote from an API, with opti
 ## 🖼 Screenshots
 
 ### 🎨 Main Interface  
-![Quote of the Day Screenshot](assets/screenshot.png)  
-
-### ✨ Fetching New Quote  
-![Fetching New Quote](assets/new_quote.png)  
+![Quote of the Day Screenshot](https://prnt.sc/FCOlABRfZDzF)    
 
 ---
 
 ## 🌍 Live Demo
 
-🔗 **[Click here to visit the deployed app](https://your-deployment-link.com)**  
+🔗 **[Click here to visit the deployed app](https://quote-of-the-day-gamma.vercel.app)**  
 
 ---
 
@@ -38,7 +35,7 @@ A simple web app that fetches and displays a random quote from an API, with opti
 - CSS  
 - JavaScript  
 - [FreeAPI Quotes API](https://api.freeapi.app/api/v1/public/quotes/quote/random)  
-- [Unsplash / Picsum Photos for Backgrounds](https://picsum.photos/)  
+- [Picsum Photos for Backgrounds](https://picsum.photos/)  
 - [html2canvas](https://html2canvas.hertzen.com/) (for exporting quotes as an image)  
 
 ---
@@ -47,7 +44,7 @@ A simple web app that fetches and displays a random quote from an API, with opti
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/quote-of-the-day.git
+git clone https://github.com/yashpatel14/quote-of-the-day.git
 cd quote-of-the-day
 ```
 
@@ -75,11 +72,24 @@ https://api.freeapi.app/api/v1/public/quotes/quote/random
 Example Response:
 ```json
 {
-  "success": true,
+  "statusCode": 200,
   "data": {
-    "quote": "The only limit to our realization of tomorrow is our doubts of today.",
-    "author": "Franklin D. Roosevelt"
-  }
+    "author": "Thomas Edison",
+    "content": "If I find 10,000 ways something won't work, I haven't failed. I am not discouraged, because every wrong attempt discarded is another step forward.",
+    "tags": [
+      "Perseverance",
+      "Success",
+      "Inspirational",
+      "Motivational"
+    ],
+    "authorSlug": "thomas-edison",
+    "length": 146,
+    "dateAdded": "2023-04-14",
+    "dateModified": "2023-04-14",
+    "id": 10
+  },
+  "message": "Quote fetched successfully",
+  "success": true
 }
 ```
 
