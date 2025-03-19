@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote-box" id="quote-box">
+            <p id="quote-text">Fetching quote...</p>
+            <h3 id="quote-author"></h3>
+        </div>
+        <div class="buttons">
+            <button onclick="fetchQuote()">New Quote</button>
+            <button onclick="copyToClipboard()">Copy</button>
+            <button onclick="shareOnTwitter()">Share</button>
+            <button onclick="downloadQuote()">Export</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
